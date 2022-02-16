@@ -3,3 +3,5 @@
 # 学習済みモデルの拡張子
 *.pickle
 *.pickles
+
+*.pyc
