@@ -1,8 +1,8 @@
 # 除外リスト
 
 # 学習済みモデルの拡張子
-*.pickle
-*.pickles
+# *.pickle
+# *.pickles
 
 *.pyc
 
