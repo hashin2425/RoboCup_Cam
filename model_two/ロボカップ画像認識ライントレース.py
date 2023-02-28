@@ -18,7 +18,7 @@ def LoadInstances(path):
 warnings.simplefilter('ignore')  # すべての警告を非表示にする
 
 # 色識別モデル(線形SVC)を読み込む
-col_model = LoadInstances("C:/Users/Haya/OneDrive/DevelopingProjects/RoboCup_Cam/model_two/ColorReco2.pickle")
+col_model = LoadInstances(".RoboCup_Cam/model_two/ColorReco2.pickle")
 
 # Webカメラに接続
 capture = cv2.VideoCapture(0)

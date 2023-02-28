@@ -46,7 +46,7 @@ colors = ["white", "black", "green", "red"]
 cmap = ListedColormap(colors, name="custom")
 
 warnings.simplefilter('ignore')  # すべての警告を非表示にする
-col_model = LoadInstances("C:/Users/Haya/OneDrive/DevlopingProjects/RoboCup_Cam/model_two/ColorReco2.pickle")
+col_model = LoadInstances(".RoboCup_Cam/model_two/ColorReco2.pickle")
 capture = cv2.VideoCapture(0)
 capture.set(cv2.CAP_PROP_FRAME_WIDTH, 320)
 capture.set(cv2.CAP_PROP_FRAME_HEIGHT, 180)

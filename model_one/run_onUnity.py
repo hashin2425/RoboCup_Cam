@@ -49,8 +49,8 @@ def LoadInstances(path):
         return pickle.load(ins)
 
 
-model_color = LoadInstances("C:/Users/Haya/OneDrive/DevlopingProjects/RoboCup_Cam/model_one/ColorModel.pickle")
-model_decision = LoadInstances("C:/Users/Haya/OneDrive/DevlopingProjects/RoboCup_Cam/model_one/NeuralDecision.pickle")
+model_color = LoadInstances(".RoboCup_Cam/model_one/ColorModel.pickle")
+model_decision = LoadInstances(".RoboCup_Cam/model_one/NeuralDecision.pickle")
 
 # カメラで撮影する
 camera = cv2.VideoCapture(0)
